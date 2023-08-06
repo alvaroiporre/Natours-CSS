@@ -1,6 +1,24 @@
 .section-about {
     background-color: $color-gray-light;
     margin-top: -20vh;
-    padding-top: 30vh;
+    padding: 30vh 0;
 
+}
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, 0.8),
+            rgba($color-primary-dark, 0.8)),
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: -10rem;
+    
+    transform: skewY(-7deg);
+    //clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+
+    & > * {
+        transform: skewY(7deg);
+    }
 }
