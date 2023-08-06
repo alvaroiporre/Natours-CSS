@@ -1,0 +1,15 @@
+{
+  "name": "natours-css",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/index.css -w"
+  },
+  "author": "alvaroiporre",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
